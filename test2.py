@@ -20,7 +20,7 @@ class Employee:
 		return '{} {}'.format(self.first, self.last)
 
 	def apply_raise(self):
-		self.pay = int(self.pay * self.raise_amount)
+		self.pay = int(self.pay * self.raise_amount) #we use self here so that we will be able to use it with instances
 
 
 print(Employee.num_of_emps) #before instantiating
